@@ -1,0 +1,39 @@
+# Reference papers are kept locally and not redistributed
+docs/references/
+
+# Private test set: never commit to the public repository
+items/test/
+
+# Secrets and local state
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+logs/
+
+# design-linter config (local)
+.impeccable/
+grading/build/
+
+# Kept locally, not published
+docs/EpiReason_Project_Brief.md
+docs/MILESTONES.md
+docs/Reference_Summaries.md
+docs/epidemiological_bias_benchmark_strategy.md
+analysis/results_v1.md
+analysis/results_v1_rejudged.md
+analysis/results_v2_s07_s09.md
+analysis/results_v3_balanced_direct.md
+analysis/results_pilot_larger.md
+analysis/results_full_v1.md
+analysis/power.R
+analysis/power_results.md
+harness/rejudge.py
+harness/list_models.py
+harness/draw_surface.py
+tests/test_rejudge.py
+tests/test_draw_surface.py
+grading/hand_grading.html
+rubrics/
+sims/
+**/.gitkeep
